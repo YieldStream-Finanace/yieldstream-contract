@@ -1,0 +1,19 @@
+# Cargo build outputs
+target/
+**/target/
+
+# Cargo lockfile override (keep for reproducible contract builds, or ignore if desired)
+# Cargo.lock
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Logs & temp files
+*.log
+tmp/
